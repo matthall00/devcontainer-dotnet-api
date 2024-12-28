@@ -1,0 +1,35 @@
+{
+    "name": "C# (.NET)",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "features": {},
+    "forwardPorts": [
+        5000,
+        5001,
+        1433
+    ],
+    "postCreateCommand": "bash .devcontainer/scripts/dotnet-init.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.csharp",
+                "ms-dotnettools.vscode-dotnet-runtime",
+                "formulahendry.dotnet-test-explorer",
+                "humao.rest-client",
+                "streetsidesoftware.code-spell-checker",
+                "patcx.vscode-nuget-gallery",
+                "fernandoescolar.vscode-solution-explorer",
+                "kreativ-software.csharpextensions",
+                "ryanluker.vscode-coverage-gutters",
+                "jmrog.vscode-nuget-package-manager",
+                "visualstudioexptteam.vscodeintellicode",
+                "ms-azuretools.vscode-docker",
+                "eamodio.gitlens",
+                "redhat.vscode-yaml",
+                "ms-dotnettools.vscodeintellicode-csharp",
+                "rangav.vscode-thunder-client"
+            ]
+        }
+    }
+}

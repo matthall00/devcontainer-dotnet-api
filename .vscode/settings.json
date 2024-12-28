@@ -1,0 +1,50 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.renderWhitespace": "trailing",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.suggestSelection": "first",
+    "github.copilot.advanced": {
+        "enabled": true,
+    },
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+            "file": ".copilot-commit-message-instructions.md"
+        },
+        {
+            "text": "Use conventional commit message format."
+        }
+    ],
+    // Terminal settings
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        }
+    },
+    // File associations
+    "files.associations": {
+        "*.json": "jsonc",
+        "appsettings*.json": "jsonc"
+    },
+    // Exclude files and folders from search
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true,
+        "**/.vs": true
+    },
+    // Git settings
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    // Error handling
+    "problems.showCurrentInStatus": true,
+    // Recommended extensions
+    "extensions.ignoreRecommendations": false
+}
